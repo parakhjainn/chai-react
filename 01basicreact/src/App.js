@@ -1,8 +1,12 @@
 import './App.css';
+import Chai from './Chai'
 
 function App() {
   return (
-    <h1>Hello Chai & React</h1>
+    <>
+      <Chai />
+      <h1>Hello Chai & React</h1>
+    </>
   );
 }
 
